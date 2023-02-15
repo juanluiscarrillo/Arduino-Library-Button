@@ -52,17 +52,7 @@ Button myInstance = Button(int pinNumber, bool pressedState);
 	pressedState = is the button HIGH or LOW when pressed?
 	
 	BEHAVIOR: creates instance of a Button
-	
-Button myInstance = Button(int pinNumber, bool pressedState, unsigned char *myRegister);
-
-	myInstance = some name
-	pinNumber = some int representing what bit the button information is on
-	pressedState = is the button HIGH or LOW when pressed?
-	*myRegister = the byte containing the button information passed by reference ( &byteName ) 
-	
-	BEHAVIOR: creates instance of a Button	
-
-    
+	   
 myInstance.version();
     
     BEHAVIOR: returns a char* of the version	
