@@ -45,11 +45,12 @@ Public Functions
 
 Button myInstance = Button(int pinNumber);
 
-Button myInstance = Button(int pinNumber, bool pressedState);
+Button myInstance = Button(int pinNumber, bool pressedState, bool isArduinoPullUp=false);
 
 	myInstance = some name
 	pinNumber = some int representing what pin the LED is attached to
 	pressedState = is the button HIGH or LOW when pressed?
+	isArduinoPullUp = true if Ardunio pull-up resistor is employed, false otherwise. Default value is false.
 	
 	BEHAVIOR: creates instance of a Button
 	   
