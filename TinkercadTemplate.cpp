@@ -117,7 +117,7 @@ Button::Button(int myPin, bool myMode, bool isArduinoPullUp=false)
 
     if (isArduinoPullUp)
     {
-        pinMode(this->_myPin, INPUT);
+        pinMode(this->_myPin, INPUT_PULLUP);
     }
     else
     {
