@@ -1,3 +1,6 @@
+This code is an adaptation of the original made by Carlyn Maw
+https://github.com/carlynorama/Arduino-Library-Button
+
 This is an example C++ library for Arduino 0018+, by Carlyn Maw
 
 Installation
