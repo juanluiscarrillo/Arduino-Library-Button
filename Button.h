@@ -23,8 +23,7 @@ class Button {
   // user-accessible "public" interface
   public:
   // constructors:
-    Button(int myPin, bool myMode);
-    Button(int myBit, bool myMode, unsigned char *myRegister);
+    Button(int myPin, bool myMode, bool isArduinoPullUp=false);
     
     char* version(void);			// get the library version
     unsigned char getRegisterValue(void);
